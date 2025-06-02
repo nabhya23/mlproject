@@ -42,7 +42,7 @@ def predict_datapoint():
 
 if __name__ == '__main__':
     print("Flask app is starting...")
-    app.run( host='127.0.0.1', port=5050)
+    app.run( host='0.0.0.0', port=5050)
 
         
 
